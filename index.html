@@ -14,16 +14,16 @@
     <div class="flex flex-row ">
         <h1 class="italic text-black  font-bold ml-20 text-3xl my-4">ChocoLux</h1>
         <ul class="flex flex-row gap-12  text-black text-lg ml-auto mr-20 my-5">
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#chocolates">CHOCOLATES</a></li>
-            <li><a href="#testimonial">TESTIMONIAL</a></li>
-            <li><a href="#contact">CONTACT US</a></li>
+            <li><a class="hover:text-amber-700" href="#home">Home</a></li>
+            <li><a href="#about" class="hover:text-amber-700">ABOUT</a></li>
+            <li><a href="#chocolates" class="hover:text-amber-700">CHOCOLATES</a></li>
+            <li><a href="#testimonial" class="hover:text-amber-700">TESTIMONIAL</a></li>
+            <li><a href="#contact" class="hover:text-amber-700">CONTACT US</a></li>
             <li><i class="fa-solid fa-magnifying-glass"></i></li>
             <li><i class="fa-solid fa-user"></i></li>
         </ul>
     </div>
-    <div class="bg-[#6F4E37] flex flex-row w-full h-full">
+    <div class="bg-[#6F4E37] flex flex-row w-full h-full " id="home">
         <div class="flex flex-col item-center justify-center ml-auto gap-4">
             <h1 class="text-5xl italic text-white">Chocolate</h1>
             <h1 class="text-9xl italic text-white">yummy</h1>
@@ -32,7 +32,7 @@
         <img src="slider-img.png" alt=""
             class="w-52 sm:w-64 md:w-80 lg:w-96 xl:w-[400px] h-auto ml-auto mr-6 md:mr-20 mt-20 mb-20 transition durantion-300  hover:scale-110" />
     </div>
-    <div class="flex flex-col md:flex-row items-center gap-8 p-14">
+    <div class="flex flex-col md:flex-row items-center gap-8 p-14" id="about">
 
         <div class="flex-1 pl-12">
             <h1 class="italic text-4xl">About Our Company</h1>
@@ -55,7 +55,7 @@
         <p class="text-lg text-center mt-2 text-gray-500">Many desktop publishing packages and web pagend web page
             editors now use Lorem Ipsum as their.</p>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-20 my-10 ">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-20 my-10 " id="chocolates">
 
         <div class="group border pt-8 rounded-lg text-center min-h-[420px] hover:bg-amber-100 hover:border-none">
 
@@ -134,10 +134,11 @@
         <img src="offer-img.png" alt="" class="transition duration-300 hover:scale-110">
     </div>
 
-    <div class="flex flex-col md:flex-row mt-20 mx-30">
+    <div class="flex flex-col md:flex-row mt-20 mx-30" id="testimonial">
 
         <div class="flex-1">
-            <img src="client-chocolate.png" alt="" class="w-full h-full object-cover transition duration-300 hover:scale-110">
+            <img src="client-chocolate.png" alt=""
+                class="w-full h-full object-cover transition duration-300 hover:scale-110">
         </div>
 
         <div class="flex-1 bg-amber-950 text-white p-12">
@@ -159,11 +160,11 @@
     </div>
 
     <!-----Form------>
-    <div class="flex flex-col md:flex-row gap-10 max-w-6xl mx-auto my-16 px-6">
+    <div class="flex flex-col md:flex-row gap-10 max-w-6xl mx-auto my-16 px-6" id="contact">
 
         <!-- Contact Form -->
         <div class="flex-1 flex flex-col gap-5">
-            <h1 class="text-4xl italic font-semibold">CONTACT US</h1>
+            <h1 class="text-4xl italic font-semibold ">CONTACT US</h1>
 
             <input type="text" placeholder="Your Name"
                 class="border p-3 rounded-lg outline-none focus:ring-2 focus:ring-amber-700">
